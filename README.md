@@ -5,7 +5,7 @@ Otomasyonun hazırlanışında Java,IntejijIDEA, Selenium, Cucumber, JUnit, Test
 Hepsiburada.com sistemine Selenium altyapısını kullanarak Java programlama dilinde yazılmıştır.
 Webdriver ile login, arama, sepete ekleme gibi fonksiyonların testlerinin otomasyonunun sağlandı
 
-
+İlk olarak Cucumber dosyasında senaryolar oluşturulmuş. Browser seçimi ve Login işlemleri bir senaryoda diğer işlemler ise 2.senaryoda gerçekleştirilmiştir.
 Senaryo1
    • kullanici hepsiburada adresine gider
    • kullanici cerezi kabul eder
@@ -35,7 +35,7 @@ Senaryo1
    
    Raporlar
    1- Cucumber-Reports
-   ![Ekran görüntüsü 2022-11-03 204132](https://user-images.githubusercontent.com/98288587/199817831-099f39ce-00f0-4de5-a03e-      5db7ec7026b8.png)
+   ![Ekran görüntüsü 2022-11-03 204132](https://user-images.githubusercontent.com/98288587/199817831-099f39ce-00f0-4de5-a03e-   5db7ec7026b8.png)
 
    
 <h3 align="left">Languages and Tools:</h3>
