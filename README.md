@@ -5,16 +5,6 @@ Hepsiburada.com sistemine Selenium altyapısını kullanarak Java programlama di
 webdriver ile login, arama, sepete ekleme gibi fonksiyonların testlerinin otomasyonunun sağlandı
 
 
-Test senaryoları, burada bulunan özellik dosyalarında Gherkin formatında açıklanmıştır ./src\test\resources\features
-
-Installation
-[Java 8 JDK] sahibi olmanız gerekir
-
-Testleri Chrome ile olarak çalıştırmak
-Tüm bağımlılıkları yüklemek için derleyin
-
-testler nasıl çalıştırılır
-Test senaryolarını çalıştırmak için CTRL+F10 tuşlarına basın veya Execute Gradle Task Testlerine "gradle cucumber" komutunu yazın Chrome'da çalışacaktır. Steps Java Class'ta OpenBrowser fonksiyonuna istediğiniz tarayıcının tanımını ekleyerek testleri farklı tarayıcılarda çalıştırabilirsiniz.
 
 Dependencies
 -selenium
@@ -22,30 +12,30 @@ Dependencies
 -cucumber
 
 Senaryo1
-    kullanici hepsiburada adresine gider
-    kullanici cerezi kabul eder
-    kullanici girisyap butonunu uzerine gelir
-    kullanici giris yap butonu tiklar
-    kullanici "<email>" adresini girer
-    kullanici girisyap butonu tiklar
-    kullanici "<sifre>" girer
-    kullanici submit butonu tiklar
-    kullanici anasayfada Hesabım yazisini gorur
-    kullanici telefon aramasi yapar
-    kullanici iki urunu tiklar
-    kullanici urunleri sepete ekle tiklar
-    kullanici dogru eklendigini dogrular
-    kullanici siparislerim tiklar
-    kullanici cikis yap tiklar
-    kullanici sayfayi kapatir
+    -kullanici hepsiburada adresine gider
+    -kullanici cerezi kabul eder
+    -kullanici girisyap butonunu uzerine gelir
+    -kullanici giris yap butonu tiklar
+    -kullanici "<email>" adresini girer
+    -kullanici girisyap butonu tiklar
+    -kullanici "<sifre>" girer
+    -kullanici submit butonu tiklar
+    -kullanici anasayfada Hesabım yazisini gorur
+    -kullanici telefon aramasi yapar
+    -kullanici iki urunu tiklar
+    -kullanici urunleri sepete ekle tiklar
+    -kullanici dogru eklendigini dogrular
+    -kullanici siparislerim tiklar
+    -kullanici cikis yap tiklar
+    -kullanici sayfayi kapatir
 
  Senaryo2
-    kullanici hepsiburada adresine gider
-    kullanici cerezi kabul eder
-    kullanici telefon aramasi yapar
-    kullanici iki urunu tiklar
-    kullanici urunleri sepete ekle tiklar
-    kullanici dogru eklendigini dogrular
-    kullanici sayfayi kapatir
+    -kullanici hepsiburada adresine gider
+    -kullanici cerezi kabul eder
+    -kullanici telefon aramasi yapar
+    -kullanici iki urunu tiklar
+    -kullanici urunleri sepete ekle tiklar
+    -kullanici dogru eklendigini dogrular
+    -kullanici sayfayi kapatir
 
 
