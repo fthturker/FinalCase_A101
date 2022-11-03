@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="149.979">
+    <testcase classname="Hepsi Burada alisveris yapma" name="Login sayfasindan giris yaparak sepete urun eklenir" time="97.581">
+        <system-out>
+            <![CDATA[Given kullanici hepsiburada adresine gider..................................passed
+And kullanici cerezi kabul eder.............................................passed
+And kullanici girisyap butonunu uzerine gelir...............................passed
+And kullanici giris yap butonu tiklar.......................................passed
+And kullanici "fthturker80@gmail.com" adresini girer........................passed
+And kullanici girisyap butonu tiklar........................................passed
+And kullanici "Fthturker80@" girer..........................................passed
+And kullanici submit butonu tiklar..........................................passed
+And kullanici anasayfada Hesabım yazisini gorur.............................passed
+When kullanici telefon aramasi yapar........................................passed
+And kullanici iki urunu tiklar..............................................passed
+And kullanici urunleri sepete ekle tiklar...................................passed
+And kullanici dogru eklendigini dogrular....................................passed
+And kullanici siparislerim tiklar...........................................passed
+And kullanici cikis yap tiklar..............................................passed
+And kullanici sayfayi kapatir...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Hepsi Burada alisveris yapma" name="Login sayfasindan girissiz sepete urun eklenir" time="52.386">
+        <system-out>
+            <![CDATA[Given kullanici hepsiburada adresine gider..................................passed
+And kullanici cerezi kabul eder.............................................passed
+When kullanici telefon aramasi yapar........................................passed
+And kullanici iki urunu tiklar..............................................passed
+And kullanici urunleri sepete ekle tiklar...................................passed
+And kullanici dogru eklendigini dogrular....................................passed
+And kullanici sayfayi kapatir...............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
