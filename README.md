@@ -35,7 +35,8 @@ Senaryo1
    
    Raporlar
    1- Cucumber-Reports
-   ![Ekran görüntüsü 2022-11-03 204132](https://user-images.githubusercontent.com/98288587/199817831-099f39ce-00f0-4de5-a03e-   5db7ec7026b8.png)
+  
+![Ekran görüntüsü 2022-11-03 204132](https://user-images.githubusercontent.com/98288587/199819237-34fd148d-72f5-4842-b0e9-4ab9e0abc027.png)
 
    
 <h3 align="left">Languages and Tools:</h3>
