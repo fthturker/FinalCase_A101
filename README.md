@@ -45,7 +45,7 @@ Webdriver ile login, arama, sepete ekleme gibi fonksiyonların testlerinin otoma
 ![Ekran görüntüsü 2022-11-03 204030](https://user-images.githubusercontent.com/98288587/199918941-8e99f351-834f-495b-9b8f-78c43b704dcf.png)
  
  # Videos Link
- https://www.loom.com/share/80a0b96cdd014c969ffff25e2fdd60f6
+ https://www.loom.com/share/a4afb0c3c643496aafedb1798ddeeadc
    
 
    
