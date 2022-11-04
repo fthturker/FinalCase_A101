@@ -46,6 +46,8 @@ Webdriver ile login, arama, sepete ekleme gibi fonksiyonların testlerinin otoma
  
  # Videos Link
  https://www.loom.com/share/a4afb0c3c643496aafedb1798ddeeadc
+ 
+ https://www.loom.com/share/b10096bb0a7349cc94850959b8f74986
    
 
    
