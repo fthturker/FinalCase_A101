@@ -29,6 +29,7 @@ public class Driver {
     baska class'larda Driver class'indan obje olusturulmasi mumkun OLMAZ
      */
     private static final int timeout = 5;
+
     private Driver() {
 
     }
@@ -42,7 +43,7 @@ public class Driver {
             switch (ConfigReader.getProperty("browser")) {
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
-                    ChromeOptions options=new ChromeOptions();
+                    ChromeOptions options = new ChromeOptions();
                     options.addArguments("--incognito");
                     options.addArguments("--start-maximized");
                     options.addArguments("--ignore-certificate-errors");
@@ -51,7 +52,7 @@ public class Driver {
                     options.addArguments("--disable-blink-features");
                     options.addArguments("--disable-blink-features=AutomationControlled");
                     options.addArguments("--disable-extensions");
-                    driver = new ChromeDriver(options=options);
+                    driver = new ChromeDriver(options = options);
                     driver.manage().deleteAllCookies();
                     break;
                 case "safari":
@@ -86,8 +87,6 @@ public class Driver {
     }
 
 
-
-
     public static void waitAndClick(WebElement element, int timeout) {
         for (int i = 0; i < timeout; i++) {
             try {
@@ -99,7 +98,7 @@ public class Driver {
         }
     }
 
-    public static void waitAndSendText(WebElement element,String text) {
+    public static void waitAndSendText(WebElement element, String text) {
         for (int i = 0; i < timeout; i++) {
             try {
                 element.sendKeys(text);
@@ -109,15 +108,14 @@ public class Driver {
             }
         }
     }
+
     public static void clickWithJS(WebElement element) {
         ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].scrollIntoView(true);", element);
         ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].click();", element);
     }
 
 
-
-
-    public static void waitAndSendTextWithDefaultTime(WebElement element,String text) {
+    public static void waitAndSendTextWithDefaultTime(WebElement element, String text) {
         for (int i = 0; i < timeout; i++) {
             try {
                 element.sendKeys(text);
@@ -129,7 +127,7 @@ public class Driver {
     }
 
     public static String waitAndGetText(WebElement element, int timeout) {
-        String text="";
+        String text = "";
         for (int i = 0; i < timeout; i++) {
             try {
                 text = element.getText();
@@ -147,37 +145,37 @@ public class Driver {
     //Iedriver
     //FirefoxDriver
 
-    public static void wait2(int sec){
+    public static void wait2(int sec) {
         try {
-            Thread.sleep(1000*sec);
-        }catch (NoSuchElementException e){
+            Thread.sleep(1000 * sec);
+        } catch (NoSuchElementException e) {
             e.printStackTrace();
-        }catch (TimeoutException e){
+        } catch (TimeoutException e) {
             e.printStackTrace();
-        }catch (StaleElementReferenceException e){
+        } catch (StaleElementReferenceException e) {
             e.printStackTrace();
-        }catch (ElementClickInterceptedException e){
+        } catch (ElementClickInterceptedException e) {
             e.printStackTrace();
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
     }
+
     //5 seconds
-    public static void waitAndClickElement(WebElement element , int seconds){
-        for (int i = 0; i < seconds ; i++) {
+    public static void waitAndClickElement(WebElement element, int seconds) {
+        for (int i = 0; i < seconds; i++) {
 
             try {
                 element.click();
                 break;
-            }catch (Exception e){
+            } catch (Exception e) {
                 wait2(1);
             }
 
 
         }
     }
-
 
 
     public static void wait(int secs) {
@@ -189,13 +187,12 @@ public class Driver {
             e.printStackTrace();
         } catch (NoSuchElementException e) {
             e.printStackTrace();
-        }catch (StaleElementReferenceException e) {
+        } catch (StaleElementReferenceException e) {
             e.printStackTrace();
-        }catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
-
 
 
 }

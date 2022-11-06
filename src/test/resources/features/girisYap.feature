@@ -20,7 +20,6 @@ Feature: Hepsi Burada alisveris yapma
     And kullanici cikis yap tiklar
     And kullanici sayfayi kapatir
 
-
     Examples:
       | email                 | sifre        |
       | fthturker80@gmail.com | Fthturker80@ |
