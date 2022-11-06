@@ -43,6 +43,11 @@ Webdriver ile login, arama, sepete ekleme gibi fonksiyonların testlerinin otoma
 
    * 3- Log4j
 ![Ekran görüntüsü 2022-11-03 204030](https://user-images.githubusercontent.com/98288587/199918941-8e99f351-834f-495b-9b8f-78c43b704dcf.png)
+ 
+ # Videos Link
+ https://www.loom.com/share/a4afb0c3c643496aafedb1798ddeeadc
+ 
+ https://www.loom.com/share/b10096bb0a7349cc94850959b8f74986
    
 
    
